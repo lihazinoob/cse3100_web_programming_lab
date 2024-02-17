@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Learningmasterpage.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+    <link href ="CSS Files/style.css" rel="stylesheet" type="text/css"/>
+        
+</head>
+<body>
+    <form id="form1" runat="server">
+          
+                   <div id="bodyHolder">
+                   <div style="display: flex;">
+                    <img src="R.png" id = "logo">
+     <p class="WecomeMessage"><b>Welcome to Web Programming Laboratory</b></p>
+ </div>
+
+        </div>
+          <asp:ContentPlaceHolder ID="body" runat="server">
+ 
+           </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
